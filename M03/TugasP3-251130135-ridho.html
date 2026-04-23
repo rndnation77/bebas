@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jelajah Dunia Bersama Ridho</title>
+    <link rel="icon" type="image/x-icon" href="/assets/logo.png">
+    <style>
+        .logo {
+            width: 100px;
+            position: absolute;
+            left: 50px;
+            top: 50px;
+            transform: translateY(-50%);
+            display: block;
+            margin-left: auto; 
+            margin-right: auto;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #333;
+            box-shadow: 0 4px 8px rgba(0,0,0.3);
+            margin-top: 50px;
+        }
+        nav {
+            background-color: #000000;
+            padding: 10px 20px;
+          
+
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        
+        }
+
+        nav ul li {
+            margin: 10 10px;
+
+        }
+
+        nav ul li a {
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 8px 12px;
+            display: block;
+            transition: background 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #f20000;
+            border-radius: 4px;
+        }
+
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            nav ul li {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: whitesmoke;">
+
+    <header style="background-color: rgb(0, 0, 0); color: white;">
+        <img src="logosaya.png" alt="logo" class="logo">
+        <h1 style=" text-align: center; color: aqua; top: 100px;">Jelajah Dunia Bersama Ridho</h1>
+        <nav>
+            <ul>
+                <li><a href="#wisata">Tempat Wisata</a></li>
+                <li><a href="#paket">Paket Wisata</a></li>
+                <li><a href="#event">Event Mendatang</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main style="background-color: whitesmoke; border: none;">
+        <section style="text-align: center;">
+            <h2>Destinasi Wisata Populer di Indonesia</h2>
+
+            <article>
+                <img src="/assets/candi.jpg" alt="Candi Borobudur" width="500px" height="310px">
+                <h3 style="text-align: center;">Candi Borobudur, Jawa Tengah</h3>
+                <p>Candi Buddha terbesar di dunia yang menawarkan pemandangan matahari terbit yang megah dan arsitektur
+                    bersejarah.</p>
+                <h4>Fasilitas:</h4>
+                <ul style="list-style-type: none;">
+                    <li>Pemandu Wisata</li>
+                    <li>Area Parkir Luas</li>
+                    <li>Toilet Umum</li>
+                    <li>Museum</li>
+                </ul>
+            </article>
+
+            <article>
+                <img src="/assets/kuta.jpg" alt="Pantai Kuta Bali" width="500px" height="310px">
+                <h3 style="text-align: center;">Pantai Kuta, Bali</h3>
+                <p>Destinasi ikonik Indonesia yang terkenal dengan garis pantai yang panjang, ombak untuk berselancar,
+                    dan matahari terbenam.</p>
+                <h4>Fasilitas:</h4>
+                <ul style="list-style-type: none;">
+                    <li>Sewa Papan Selancar</li>
+                    <li>Restoran & Cafe</li>
+                    <li>Pusat Perbelanjaan</li>
+                    <li>Hotel & Penginapan</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <hr>
+
+    <section style="text-align: center; border: none;">
+        <h2>Pilihan Paket Wisata Kami</h2>
+
+        <article>
+            <img src="assets/raja_ampat.png" alt="Paket Bali" width="500px" height="500px">
+            <h3>Paket Liburan Keluarga -Raja Ampat (3 Hari 2 Malam)</h3>
+            <p>Nikmati momen kebersamaan bersama keluarga di hotel berbintang dengan tur harian ke objek wisata populer.
+            </p>
+            <p><strong>Harga: Rp 1.500.000</strong></p>
+            <h4>Fasilitas:</h4>
+            <ul style="list-style-type: none;">
+                <li>Tiket Bus PP</li>
+                <li>Hotel Bintang 4</li>
+                <li>Transportasi Private</li>
+                <li>Sarapan Pagi</li>
+            </ul>
+        </article>
+
+        <article>
+            <img src="assets/bandung.png" alt="Alam Bandung" width="500px" height="500px">
+            <h3>Open Trip Bandung</h3>
+            <p>Petualangan menyusuri keindahan alam Kawah Ciwidey, Air Terjun Cipelah Rancabali</p>
+            <p><strong>Harga: Rp 1.200.000</strong></p>
+            <h4>Fasilitas:</h4>
+            <ul style="list-style-type: none;">
+                <li>Live on Board (Kapal Phinisi)</li>
+                <li>Dokumentasi Drone & Kamera</li>
+                <li>Makan 3x Sehari</li>
+                <li>Alat Snorkeling</li>
+            </ul>
+        </article>
+    </section>
+    <section style="text-align: center; border: none;">
+        <article>
+            <h3>Galery Kami</h3>
+            <video controls width="1100px">
+                <source src="/assets/video/video.mp4" type="Video/mp4">
+            </video>
+            <audio controls autoplay width="110px">
+                <source src="assets/audio/audio.mp3">
+            </audio>
+
+        </article>
+    </section>
+
+    <hr>
+
+    <aside style="text-align: center;">
+        <h2>Event Travel Mendatang</h2>
+        <ul style="list-style-type: none;">
+            <li>
+                <strong>Travel Fair Jakarta 2026</strong>
+                <p>Tanggal: 15-17 Mei 2026</p>
+            </li>
+            <li>
+                <strong>Workshop Fotografi Alam - Bromo</strong>
+                <p>Tanggal: 10 Juni 2026</p>
+            </li>
+            <li>
+                <strong>Promo Independence Day Sale</strong>
+                <p>Tanggal: 1-17 Agustus 2026</p>
+            </li>
+        </ul>
+    </aside>
+
+    <hr>
+
+    <footer style="text-align: center; background-color: black; color: white;">
+        <p>&copy; 2026 Jelajah Dunia Bersama Ridho. All rights reserved.</p>
+        <p>Ikuti kami di media sosial:</p>
+        <ul style="list-style-type: none;">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter/X</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
